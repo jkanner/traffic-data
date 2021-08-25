@@ -195,6 +195,8 @@ with st.expander("See notes"):
 
  * You can read more about [North Lake Avenue project](https://www.pasadenacsc.org/lakeave)
 
+ * Collision cost estimates made using data from the [National Safety Council](https://injuryfacts.nsc.org/all-injuries/costs/guide-to-calculating-costs/data-details/)
+
  * This app made with [open source code](https://github.com/jkanner/traffic-data)
 """)
 
