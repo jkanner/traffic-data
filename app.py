@@ -119,7 +119,7 @@ build_choice = st.radio("Choose an option:",
 
 
 if build_choice == "Add protected bike lanes!":
-    safety = 0.60
+    safety = 0.65
 else:
     safety = 1
 
@@ -171,12 +171,30 @@ with col1:
         st.image("bikeportland-image.jpg")
         st.markdown("""
         By adding protected bike lanes, you've reduced the collision rate
-        by around 40%, saving your neighbors around 2 million dollars in 
+        by around 35%, saving your neighbors around 2 million dollars in 
         damages and preventing over 100 injuries during the next 10 years.
         """)
 
 if build_choice != "I'm still thinking ...":
 
-    st.markdown("## Please [TAKE ACTION](https://www.pasadenacsc.org/lakeave#support) to support safety on North Lake Ave")
+    st.markdown("""## Please [TAKE ACTION](https://www.pasadenacsc.org/lakeave#support) to support safety on North Lake Ave
+""")
+
+
+st.markdown("***")
     
+with st.expander("See notes"):
+
+    st.markdown("""
+ * Historical traffic data from [City of Pasadena Open Data Site](https://data.cityofpasadena.net/datasets/85f49ea583c24056968bee6e28162da4_0/explore?location=34.155947%2C-118.127334%2C12.93)
+
+ * Collision rate reduction due to protected bike lanes is based on a [number of studies](https://www.peopleforbikes.org/statistics/economic-benefits), 
+  including a [case study in New York](http://www.nyc.gov/html/dot/downloads/pdf/2011_columbus_assessment.pdf), showing a 34% reduction in collisions. 
+
+ * A [comprehensive study](https://www.pasadenacsc.org/blog/protected-bike-lanes-increase-traffic-safety-for-everyone) of bike lane safety showed dramatic reductions in injuries and fatalities for all road users when adding protected protected bicycle lanes.
+
+ * You can read more about [North Lake Avenue project](https://www.pasadenacsc.org/lakeave)
+
+ * This app made with [open source code](https://github.com/jkanner/traffic-data)
+""")
 
