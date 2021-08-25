@@ -171,7 +171,7 @@ with col1:
         st.image("bikeportland-image.jpg")
         st.markdown("""
         By adding protected bike lanes, you've reduced the collision rate
-        by around 35%, saving your neighbors around 2 million dollars in 
+        by 35%, saving your neighbors around 2 million dollars in 
         damages and preventing over 100 injuries during the next 10 years.
         """)
 
