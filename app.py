@@ -191,7 +191,7 @@ with st.expander("See notes"):
  * Collision rate reduction due to protected bike lanes is based on a [number of studies](https://www.peopleforbikes.org/statistics/economic-benefits), 
   including a [case study in New York](http://www.nyc.gov/html/dot/downloads/pdf/2011_columbus_assessment.pdf), showing a 34% reduction in collisions. 
 
- * A [comprehensive study](https://www.pasadenacsc.org/blog/protected-bike-lanes-increase-traffic-safety-for-everyone) of bike lane safety showed dramatic reductions in injuries and fatalities for all road users when adding protected protected bicycle lanes.
+ * A [comprehensive study](https://www.pasadenacsc.org/blog/protected-bike-lanes-increase-traffic-safety-for-everyone) of bike lane safety showed dramatic reductions in injuries and fatalities for all road users when adding protected bicycle lanes.
 
  * You can read more about [North Lake Avenue project](https://www.pasadenacsc.org/lakeave)
 
