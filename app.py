@@ -149,17 +149,20 @@ chart5 = alt.Chart(modeldata).mark_line(color='gray').encode(
 
 col1, col2 = st.columns(2)
 
-with col1:
-    if build_choice !="I'm still thinking ...":
-        st.write(chart4+chart5)
-
 with col2:
+    if build_choice !="I'm still thinking ...":
+        st.markdown("## Model prediction")
+        st.write(chart4+chart5)
+        #st.markdown("""
+#Future collision rates on N. Lake Avenue.  The gray bar shows the historical average of 47 collisions per year.""")
+
+with col1:
     if build_choice == "Keep the status quo":
         st.markdown("## Oh No!")
         st.image('crash.jpg')
         st.markdown("""
         You kept the current design.  We'll continue to see around 
-        50 collisions per year, for a cost of around 6 million dollars in 
+        47 collisions per year, for a cost of 6 million dollars in 
         damages over the next ten years.
         """)
 
@@ -169,10 +172,10 @@ with col2:
         st.markdown("""
         By adding protected bike lanes, you've reduced the collision rate
         by around 40%, saving your neighbors around 2 million dollars in 
-        damages and preventing over 100 injuries over the next 10 years.
+        damages and preventing over 100 injuries during the next 10 years.
         """)
 
-if build_choice == "Add protected bike lanes!":
+if build_choice != "I'm still thinking ...":
 
     st.markdown("## Please [TAKE ACTION](https://www.pasadenacsc.org/lakeave#support) to support safety on North Lake Ave")
     
